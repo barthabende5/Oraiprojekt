@@ -1,0 +1,139 @@
+nav {
+    margin: 15px auto;
+    overflow: auto;
+    background-color: dimgrey;
+    border: 4px solid black;
+    border-radius: 7px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+nav h1 {
+    float: left;
+    padding-left: 1%;
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul {
+    padding-right: 1%;
+    margin-top: 0.3%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+nav ul li a:hover {
+    color: darkorange;
+}
+
+header h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin: 0 40% 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+section div.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20%;
+}
+
+section div.fboxcutler{
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: olivedrab;
+}
+
+section div.fboxleier{
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section div.fboxgalaxy{
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+}
+
+section div.fboxspeedfit{
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: crimson;
+}
+
+section div.kep img{
+    width: 80px;
+    height: 50px;
+    padding-left: 39%;
+}
+
+@keyframes animation7 {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(360deg);}
+}
+
+.animation7 {
+    animation: animation7 5s infinite;
+    position: relative;
+}
+
+@keyframes animation6 {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+.animation6 {
+    animation: animation6 5s infinite;
+    position: relative;
+}
+
+@keyframes animation5 {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.animation5 {
+    animation: animation5 5s infinite;
+    position: relative;
+}
