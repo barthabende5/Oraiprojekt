@@ -197,18 +197,20 @@ article {
     }
 }
 
-header img {
+div.ja p img {
     height: 50%;
     width: 80%;
+    transition: all 1s ease-in-out;
+
 }
 
-header p {
+div.ja p {
     text-align: center;
 }
 
-header :hover {
+
+div.ja :hover {
     height: 70%;
     width: 100%;
-    transition: all 1s;
-    transition-timing-function: ease-in-out;
+    transition: scale(1.5);
 }
